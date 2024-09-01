@@ -4,5 +4,5 @@ cat << EOF > .env
 HOMEDIR=${HOME}
 EOF
 
-sudo docker-compose down
-sudo docker-compose up -d
+sudo docker compose down
+sudo docker compose up -d
